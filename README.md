@@ -1,1 +1,1 @@
-# To-Do-App
+This app can help you organize yourself and make it easier for you to get things done. With this app you can make lists and app things to those lists which will help you whether they are for school assignments, house chores, or shopping lists.

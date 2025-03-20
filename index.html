@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <head>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet"
+      />
+    </head>
+    <title>To Do App</title>
+    <body>
+      <nav id="navbar">
+        <a id="logo">Logo</a>
+        <div id="navbar-contents">
+          <a href="">Home</a>
+          <a href="">Lists</a>
+        </div>
+      </nav>
+
+      <h1>To Do App</h1>
+
+      <span id="list-title">Lists</span>
+
+      <hr />
+
+      <div id="vertical-line"></div>
+
+      <div id="list-group">
+        <ul class="list">
+          <p class="list-header"></p>
+        </ul>
+      </div>
+
+      <span id="create-title">Create Box</span>
+
+      <input id="new-list-box" type="text" placeholder="Name" />
+      <button id="nlb-enter" onclick="buttonAlert(this)">Enter</button>
+
+      <input id="new-item-box" type="text" placeholder="Item" />
+      <button id="nib-enter" onclick="buttonAlert(this)">Enter</button>
+
+      <button id="reset-btn">Reset Lists</button>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
+</html>
